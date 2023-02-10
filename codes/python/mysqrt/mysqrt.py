@@ -31,3 +31,13 @@ def sqrtNT(x,debug=False):
 	if debug:
 		print("After %s iterations,  s=%20.15f" %(k+1,s))
 	return s
+
+def test_main():
+	from numpy import sqrt
+	xvalues=[0., 2., 100, 1.e6]
+	for x in xvalues:
+		print("Testing with x=%20.15e" %x)
+		s=sqrtNT(x)
+		s_numpy=sqrt(x)
+		print("sqrtNT s = %20.15e, numpy s = %20.15e" %(s,s_numpy))
+		assert abs(s-s_numpy) < 1e-14, "Your sqrt does not agree with numpy sqrt"
