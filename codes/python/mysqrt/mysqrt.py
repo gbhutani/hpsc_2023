@@ -8,6 +8,15 @@ def sqrtNT(x,debug=False):
 	The actual sqrtNT function
 	Takes one input x: the number whose square root is to be calculated
 	"""
+	from numpy import nan
+	
+	if x==0.:
+		return 0.
+	elif x<0.:
+		print("An error has occured since you have passed a negative value for x which does \
+		not have a real square root")
+		return nan
+	assert x>0., "Input not recognised"	
 	s=1.
 	kmax=100
 	tol=1.0e-14
