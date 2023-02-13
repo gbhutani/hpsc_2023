@@ -1,8 +1,6 @@
-# Python 3 program to find cubic root
+#cuberoot using python
 
-# Returns the absolute value of
-# n-mid*mid*mid
-
+#to measure closeness of current result
 
 def diff(n, mid):
 	if (n > (mid * mid * mid)):
@@ -10,43 +8,34 @@ def diff(n, mid):
 	else:
 		return ((mid * mid * mid) - n)
 
-# Returns cube root of a no n
 
+#for finding cuberoot
 
 def cubicRoot(n):
 
-	# Set start and end for binary
-	# search
-	start = 0
-	end = n
+	a = 0
+	b = n
 
-	# Set precision
-	e = 0.0000001
+	
+	e = 1e-8
 	while (True):
 
-		mid = (start + end) / 2
+		mid = (a + b) / 2
 		error = diff(n, mid)
 
-		# If error is less than e
-		# then mid is our answer
-		# so return mid
+		
 		if (error <= e):
 			return mid
 
-		# If mid*mid*mid is greater
-		# than n set end = mid
 		if ((mid * mid * mid) > n):
-			end = mid
+			b = mid
 
-		# If mid*mid*mid is less
-		# than n set start = mid
 		else:
-			start = mid
+			a = mid
 
 
-n = int(input('enter a number'))
+n = int(input('enter a number \n'))
 if (n<0):
 	print("not a number")
 else:
-	print("Cubic root of", n, "is",
-		round(cubicRoot(n), 6))
+	print("Cubic root of", n, "is",round(cubicRoot(n), 8))
