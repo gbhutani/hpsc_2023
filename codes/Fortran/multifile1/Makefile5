@@ -1,0 +1,20 @@
+
+# $UWHPSC/codes/fortran/multifile1/Makefile5
+
+OBJECTS = main.o sub1.o sub2.o
+.PHONY: clean
+
+output.txt: main.exe
+	./main.exe > output.txt
+
+main.exe: $(OBJECTS)
+	gfortran $(OBJECTS) -o main.exe
+
+%.o : %.f90
+	gfortran -c $< 
+
+clean:
+	rm -f $(OBJECTS) main.exe
+
+clobber: 
+	rm -f $(OBJECTS) main.exe output.txt
