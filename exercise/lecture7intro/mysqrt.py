@@ -46,7 +46,3 @@ def test_main():
 		s_numpy=sqrt(x)
 		print("sqrtNT s = %20.15e, numpy s = %20.15e" %(s,s_numpy))
 		assert abs(s-s_numpy) < 1e-14, "Your sqrt does not agree with numpy sqrt"
-if __name__ == "__main__":
-    print("Running test... ")
-    test_main()
-
