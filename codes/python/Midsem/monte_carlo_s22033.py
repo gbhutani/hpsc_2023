@@ -17,7 +17,7 @@ def test_pi():
     for i,n in enumerate(A):
         n=int(n)
         pi_test=monte_carlo_pi(n)
-        print("estimated value of pi is %20.15f for %s number of points" %(pi_test,i))
+        print("estimated value of pi is %20.15f for %s number of points" %(pi_test,n))
         assert abs(np.pi-pi_test)<=0.2*np.pi, "estimated value is outside of 20% of actual value"
 
 if __name__ == "__main__":
