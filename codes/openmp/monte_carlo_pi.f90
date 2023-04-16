@@ -1,17 +1,28 @@
 program monte_carlo_pi
-
+    !$ use omp_lib
     implicit none
     integer :: i,inside,num_points
+    integer :: num_threads
     real(kind=8) :: x,y,dist,estimate_pi
     character(len=32) :: arg
     
     ! read num_points as command line argument.
-    ! Run the code as: './a.out 100'
+    ! Run the code as: './a.out <num_points> <num_threads>'
     call get_command_argument(1, arg)
     read(arg , *) num_points
 
     !print *, num_points
-    inside = 0    
+    inside = 0  
+
+    ! read num_threads as command line argument.
+    ! Run the code as: './a.out <num_points> <num_threads>'
+    call get_command_argument(2, arg)
+    read(arg , *) num_threads
+
+    !$ call omp_set_num_threads(num_threads)
+    !$ print *, "Code running on", num_threads, "threads with OpenMP"
+
+    !$omp parallel do default(private) reduction(+:inside)
     do i=1,num_points
 
         call random_number(x)
@@ -30,6 +41,8 @@ program monte_carlo_pi
         endif
 
     enddo
+    !$omp end parallel do
+
     print *, inside, "points fall inside the circle out of", num_points, "points"
             
     estimate_pi = (inside * 4.d0) / num_points
