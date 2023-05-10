@@ -11,7 +11,7 @@ program matrix1norm2
     implicit none
 
     integer :: i,j,jj,nrows,ncols,proc_num, num_procs,ierr,nerr
-    integer :: numsent, sender, nextcol`
+    integer :: numsent, sender, nextcol
     integer, dimension(MPI_STATUS_SIZE) :: status
     real(kind=8) :: colnorm
     real(kind=8), allocatable, dimension(:,:) :: a
