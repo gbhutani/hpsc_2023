@@ -1,0 +1,22 @@
+
+OBJECTS = <object files>
+FFLAGS = 
+NUM_PROCS = 4  # modify so that the default is only used if not specified on command line or env variable
+mpif90 = <specify path of mpif90>
+mpiexec = <specify path of mpiexec>
+
+.PHONY: main clean 
+
+# insert a target main that runs the main.exe using $(mpiexec)
+main: 
+
+# populate the dependent target main.exe
+main.exe: 
+	
+# compile all .f90 files into corresponding .o files
+%.o :
+
+# remove all .o, .exe and .mod files
+clean:
+	
+
