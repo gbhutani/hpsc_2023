@@ -1,0 +1,566 @@
+    1  pip --version
+    2  pip3 --version
+    3  sudo apt install python3-pip
+    4  sudo apt-get update
+    5  sudo apt install python3-pip
+    6  pip --version
+    7  pip list
+    8  cd Desktop/
+    9  mkdir course-venv
+   10  cd course-venv/
+   11  python3 -m venv venv
+   12  apt install python3.10-venv
+   13  sudo apt install python3.10-venv
+   14  python3 -m venv venv
+   15  source venv/bin/activate
+   16  clear
+   17  ls
+   18  pip install ipython
+   19  ipython
+   20  deactivate
+   21  ipython
+   22  source venv/bin/activate
+   23  ipython
+   24  pip install jupyter-notebook
+   25  pip install jupyter
+   26  jupyter
+   27  jupyter-notebook 
+   28  pip install pylab
+   29  pip install scipy
+   30  IPYTHON
+   31  ipython
+   32  ipython --pylab
+   33  pip install matplotlib
+   34  ipython --pylab
+   35  ipython --pylab --inline
+   36  ipython --pylab -inline
+   37  ipython --pylab inline
+   38  pip install tk
+   39  ipython --pylab inline
+   40  pip install pyqt5
+   41  ipython --pylab inline
+   42  ipython --pylab
+   43  deactivate
+   44  exit
+   45  ls
+   46  ls -l
+   47  ls
+   48  gfort
+   49  gfortran
+   50  sudo apt install gfortran
+   51  man gfortran 
+   52  exit
+   53  ls
+   54  sudo fdisk -l
+   55  cd /
+   56  du -h
+   57  exit
+   58  history
+   59  exit
+   60  gfortran intent-in-test.f90 
+   61  ./a.out 
+   62  gfortran intent-in-test.f90 
+   63  ./a.out 
+   64  gfortran intent-in-test.f90 
+   65  ./a.out 
+   66  gfortran intent-in-test.f90 
+   67  ./a.out 
+   68  gfortran intent-in-test.f90 
+   69  ./a.out 
+   70  gfortran intent-in-test.f90 
+   71  ./a.out 
+   72  gfortran intent-in-test.f90 
+   73  ./a.out 
+   74  exit
+   75  vim intent-in-test.f90
+   76  gfortran intent-in-test.f90 
+   77  ls
+   78  ./a.out 
+   79  vim intent-in-test.f90
+   80  ls
+   81  rm a.out 
+   82  ll
+   83  vim intent-in-test.f90
+   84  gfortran intent-in-test.f90 
+   85  exit
+   86  git --version
+   87  mkdir github
+   88  mkdir bitbucket
+   89  cd bitbucket/
+   90  ls
+   91  git clone https://rjleveque@bitbucket.org/rjleveque/uwhpsc.git
+   92  ls
+   93  cd uwhpsc/
+   94  ls
+   95  cd lectures/
+   96  ls
+   97  cd lecture1
+   98  ls
+   99  ll
+  100  vim Makefile 
+  101  make plots
+  102  python3 plot_solution.py 
+  103  vim plot_solution.py 
+  104  python3 plot_solution.py 
+  105  source ~/Desktop/course-venv/venv/bin/activate
+  106  python plot_solution.py 
+  107  ls
+  108  display contour.png
+  109  display pcolor.png 
+  110  ls
+  111  display pcolor.png 
+  112  vim solution.txt 
+  113  vim plot_solution.py 
+  114  make plots
+  115  display contour.png 
+  116  vim jacobi2d_main_omp.f90 
+  117  vim jacobi2d_sub_omp.f90 
+  118  exit
+  119  cd bitbucket/uwhpsc/lectures/lecture1
+  120  ls
+  121  vim plot_solution.py 
+  122  exit
+  123  cd bitbucket/uwhpsc/
+  124  ls
+  125  cd lectures/
+  126  ls
+  127  cd lecture5/
+  128  ls
+  129  cd ..
+  130  ls
+  131  cd ..
+  132  ls
+  133  cd codes/
+  134  ls
+  135  cd fortran/
+  136  ls
+  137  cd ..
+  138  ls
+  139  cd openmp/
+  140  ls
+  141  cd ..
+  142  ls
+  143  cd lapack/
+  144  ls
+  145  cd ..
+  146  ls
+  147  cd ..
+  148  ls
+  149  cd 2013/
+  150  ls
+  151  cd solutions/
+  152  ls
+  153  cd ..
+  154  ls
+  155  cd sl
+  156  cd solutions/
+  157  ls
+  158  cd ..
+  159  sl
+  160  ls
+  161  grep jacobi
+  162  find . jacobi*
+  163  find . jacobi
+  164  find . -name jacobi
+  165  find . -name jacobi*
+  166  cd lectures/
+  167  ls
+  168  cd lecture1
+  169  ls
+  170  make clean
+  171  vim Makefile 
+  172  gfortran jacobi2d_main_omp.f90 
+  173  gfortran jacobi2d_sub_omp.f90 
+  174  f95 jacobi2d_sub_omp.f90 
+  175  vim jacobi2d_sub_omp.f90 
+  176  gfortran jacobi2d_sub_omp.f90 
+  177  make plots
+  178  source ~/Desktop/course-venv/venv/bin/activate
+  179  make plots
+  180  display contour.png 
+  181  display pcolor.png 
+  182  vim plot_solution.py 
+  183  python3 plot_solution.py 
+  184  display pcolor.png 
+  185  vim plot_solution.py 
+  186  spyder
+  187  pip install spyder
+  188  vim solution.txt 
+  189  spyder
+  190  ls
+  191  vim jacobi2d_main_omp.f90 
+  192  make plots
+  193  display pcolor.png 
+  194  vim plot_solution.py 
+  195  spyder &
+  196  vim plot_solution.py 
+  197  python plot_solution.py 
+  198  display pcolor.png 
+  199  python plot_solution.py 
+  200  display pcolor.png 
+  201  rm pcolor.png 
+  202  python plot_solution.py 
+  203  display pcolor.png 
+  204  python plot_solution.py 
+  205  display pcolor.png 
+  206  python plot_solution.py 
+  207  display pcolor.png 
+  208  python plot_solution.py 
+  209  display pcolor.png 
+  210  python plot_solution.py 
+  211  display pcolor.png 
+  212  python plot_solution.py 
+  213  display pcolor.png 
+  214  vim jacobi2d_main_omp.f90 
+  215  make plots
+  216  display pcolor.png 
+  217  display contour.png 
+  218  display pcolor.png 
+  219  display contour.png 
+  220  ls
+  221  make clean
+  222  ls
+  223  make clobber
+  224  ls
+  225  ll
+  226  cd ..
+  227  ls
+  228  cp -r lecture1 ~/Desktop/
+  229  cd
+  230  ls
+  231  cd Desktop/
+  232  ls
+  233  cd lecture1/
+  234  ls
+  235  cd ..
+  236  mkdir HPSC
+  237  cd HPSC/
+  238  mv ../lecture1/ ./
+  239  ls
+  240  cd lecture1/
+  241  ls
+  242  make plots
+  243  display plot_solution.py 
+  244  display pcolor.png 
+  245  display contour.png 
+  246  exit
+  247  cd Desktop/HPSC/
+  248  ls
+  249  cd lecture1/
+  250  ls
+  251  make clobber
+  252  ls
+  253  exit
+  254  whoami
+  255  ls
+  256  cd/Downloads
+  257  cs/Music
+  258  cd Downloads/
+  259  cd Desktop/
+  260  cd -
+  261  ls
+  262  cd Desktop
+  263  cd course-venv
+  264  PS1'$ '
+  265  PS1='$ '
+  266  clear
+  267  pwd
+  268  cd
+  269  pwd
+  270  cd-
+  271  cd -
+  272  pwd
+  273  ls
+  274  echo PS1
+  275  echo $PS1
+  276  PS1='haha '
+  277  pwd
+  278  ls
+  279  cd lecture1/
+  280  cd lecture
+  281  cd lecture1
+  282  cd
+  283  pwd
+  284  ls
+  285  pwd
+  286  cd Desktop/
+  287  ls
+  288  cd course-venv
+  289  pwd
+  290  cd lecture1
+  291  sudo nano ~/.bashrc
+  292  sudo nano/etc/apt.conf
+  293  pwd
+  294  PS1='$ '
+  295  pwd
+  296  clear
+  297  ls
+  298  gitkraken
+  299  lsb_release
+  300  lsb_release -a
+  301  clear
+  302  git config --global "Aditya Pratap Singh"
+  303  git config --global "s22033"
+  304  git config --global "Aditya Pratap Singh"
+  305  ls -1
+  306  exit
+  307  cd Desktop
+  308  ls -1
+  309  cd course-venv/
+  310  ls
+  311  ls activate
+  312  cd venv/
+  313  ls
+  314  ls activate
+  315  d bin
+  316  cd bin
+  317  ls
+  318  ctivate       isort-identify-imports              jupyter-run              pylsp                  rst2pseudoxml.py
+  319  ls activate
+  320  ls -la activate
+  321  activate activate
+  322  source activate
+  323  exit
+  324  clear
+  325  PS1='$ '
+  326  clear
+  327  cd github
+  328  cd Desktop
+  329  ls
+  330  1
+  331  ls
+  332  pwd
+  333  cd temp
+  334  mkdir temo
+  335  ls
+  336  mv temo/temp
+  337  pwd
+  338  cd temo
+  339  pwd
+  340  mv temo/temp
+  341  mv --help
+  342  mv temp/ temo
+  343  mv temo/ temp
+  344  owd
+  345  pwd
+  346  mv temo/ temp
+  347  pwd
+  348  cd
+  349  pwd
+  350  cd --
+  351  pwd
+  352  cd -
+  353  cd Desktop
+  354  cd temo
+  355  pwd
+  356  cd Desktop
+  357  cd temp
+  358  mv temo/ temp
+  359  mkdir temo
+  360  pwd
+  361  mv temo/ temp
+  362  pwd
+  363  cd temp
+  364  pwd
+  365  git clone [200~ctivate       isort-identify-imports              jupyter-run              pylsp                  rst2pseudoxml.py
+  366  git clone https://github.com/s22033/HPSC_2023.git
+  367  gitkraken
+  368  [200~eJwtzLFugzAUheF38cxgu0CIt25Vm1ZV1KjZrIt9SR0Mtq6hNIny7rUitqMjff+NgTGY0lfocWSKlcK00FSistLIjiMHUctGAHZlU0tuKpBPCDVnBYsUfp1FWultLelpTZ1+gv7+PL4Mm/m43cuD+3DmvLuK15bOuzfu7VIe3p/9kFMPoqdLxOxaBELKbzLhcYAd3Kji3HpndI+XghCsCnTKI4ZiTkgKB3C+Wclear
+  369  clear
+  370  git config --global http.proxy eJwtzLFugzAUheF38cxgu0CIt25Vm1ZV1KjZrIt9SR0Mtq6hNIny7rUitqMjff+NgTGY0lfocWSKlcK00FSistLIjiMHUctGAHZlU0tuKpBPCDVnBYsUfp1FWultLelpTZ1+gv7+PL4Mm/m43cuD+3DmvLuK15bOuzfu7VIe3p/9kFMPoqdLxOxaBELKbzLhcYAd3Kji3HpndI+XghCsCnTKI4ZiTkgKB3C+WAL1nQ9LxvgXHWHSMDE1zt7f7/9iAFA
+  371  clear
+  372  git config --global http.proxy eJwtzLFugzAUheF38cxgu0CIt25Vm1ZV1KjZrIt9SR0Mtq6hNIny7rUitqMjff+NgTGY0lfocWSKlcK00FSistLIjiMHUctGAHZlU0tuKpBPCDVnBYsUfp1FWultLelpTZ1+gv7+PL4Mm/m43cuD+3DmvLuK15bOuzfu7VIe3p/9kFMPoqdLxOxaBELKbzLhcYAd3Kji3HpndI+XghCsCnTKI4ZiTkgKB3C+WAL1nQ9LxvgXHWHSMDE1zt7f7/9iAFA
+  373  git config --global http.proxy 'http://10.8.0.1:8080'
+  374  git config --global https.proxy 'http://10.8.0.1:8080'
+  375  git clone https://github.com/s22033/HPSC_2023.git
+  376  proxy
+  377  PS1='$ '
+  378  git config --global http.proxy "https://s22033:THAKUR@ldap123@gateway.iitmandi.ac.in"
+  379  git config --global https.proxy "https://s22033:THAKUR@ldap123@gateway.iitmandi.ac.in"
+  380  git clone https://github.com/s22033/HPSC_2023.git
+  381  git config --global https.proxy "http://s22033:THAKUR@ldap123@gateway.iitmandi.ac.in"
+  382  git config --global http.proxy http://s22033:THAKUR@ldap123@gateway.iitmandi.ac.in:
+  383  git config --global https.proxy "http://s22033:THAKUR@ldap123@gateway.iitmandi.ac.in"
+  384  git clone https://github.com/s22033/HPSC_2023.git
+  385  git config --global --unset http.proxy
+  386  git config --global --get-regexp http.*
+  387  git config --global --unset https.proxy
+  388  git config --global --get-regexp http.*
+  389  git config --global http.proxy http://S22033:THAKUR@ldap123@gateway.iitmandi.ac.in:8080
+  390  git clone https://github.com/s22033/HPSC_2023.git
+  391  git clone git@github.com:s22033/HPSC_2023.git
+  392  git config --global https.proxy http://S22033:THAKUR@ldap123@gateway.iitmandi.ac.in:8080
+  393  git clone https://github.com/s22033/HPSC_2023.git
+  394  ls
+  395  mv HPSC_2023 ~/Desktop/temo/temp/
+  396  mv ~/HPSC_2023 ~/Desktop/temo/temp/
+  397  mv ~/HPSC_2023 ~/Desktop
+  398  cd Desktop
+  399  ls
+  400  cd Desktop/temo/temp
+  401  cd Desktop/temo/
+  402  cd Desktop/
+  403  cd ~/Desktop/
+  404  cd ~/Desktop/temo
+  405  cd ~/Desktop/temo/temp'
+  406  cd ~/Desktop/temo/temp
+  407  cd ~/Desktop/temo/temp
+  408  ls
+  409  rm -rf HPSC_2023
+  410  ls
+  411  mv ~/HPSC_2023 ~/Desktop/temo/temp/
+  412  sudo mv ~/HPSC_2023 ~/Desktop/temo/temp/
+  413  mv HPSC_2023 ~/Desktop/temo/temp/
+  414  cd
+  415  ls
+  416  mv HPSC_2023 ~/Desktop/temo/temp/
+  417  mv /HPSC_2023 ~/Desktop/temo/temp/
+  418  cd HPSC_2023
+  419  cd Desktop
+  420  ls
+  421  mv /HPSC_2023 ~/Desktop/temo/temp/
+  422  mv /Desktop/HPSC_2023 ~/Desktop/temo/temp/
+  423  mv ~/Desktop/HPSC_2023 ~/Desktop/temo/temp/
+  424  ls
+  425  cd ~/temo/temp
+  426  cd ~/Desktop/temo/temp
+  427  ls
+  428  source ~/Desktop/course-venv/venv/bin/activate
+  429  python
+  430  deactivate
+  431  python
+  432  python3
+  433  history
+  434  hist
+  435  hist -g
+  436  python3
+  437  source ~/Desktop/course-venv/venv/bin/activate
+  438  python
+  439  deativate
+  440  deactivate
+  441  echo $HPSC
+  442  PS1='$ '
+  443  git status
+  444  cd Desktop/temo/temp
+  445  cd Desktop
+  446  pwd
+  447  ls
+  448  cd HPSC_2023
+  449  git status
+  450  HPSC=github/HPSC_2023/codes/python/mysqrt/
+  451  ls
+  452  pwd
+  453  HPSC
+  454  cd HPSC
+  455  HPSC??
+  456  HPSC?
+  457  HPSC=Desktop/venv/
+  458  cd HPSC
+  459  pwd
+  460  cd ..
+  461  pwd
+  462  cd -
+  463  cd home
+  464  cd 
+  465  cd HPSC
+  466  pwd
+  467  cd
+  468  pwd
+  469  cd --
+  470  pwd
+  471  HPSC=Desktop/venv/
+  472  echo $HPSC
+  473  pwd
+  474  cd HPSC
+  475  cd $HPSC
+  476  HPSC
+  477  echo $HPSC
+  478  cd
+  479  pwd
+  480  cd $HPSC
+  481  HPSC=Desktop/temo/temp
+  482  echo $HPSC
+  483  cd $HPSC
+  484  pwd
+  485  HPSC=Desktop/temo/temp/HPSC_2023
+  486  cd $HPSC
+  487  pwd
+  488  ls
+  489  cd $HPSC
+  490  pwd
+  491  cd
+  492  cd $HPSC
+  493  ls
+  494  git init
+  495  ls
+  496  git add README.md
+  497  git status
+  498  git help
+  499  git clear
+  500  git clone https://github.com/gbhutani/hpsc_2023.git
+  501  ls
+  502  cd hpsc_2023/
+  503  ls
+  504  cd codes
+  505  ls
+  506  cd python/
+  507  ls
+  508  cd mysqrt/
+  509  ls
+  510  cd mysqrt.py
+  511  cat mysqrt.py 
+  512  clear
+  513  git log
+  514  git status
+  515  pwd
+  516  rm mysqrt.py 
+  517  rm codes
+  518  pwd
+  519  rm mysqrt
+  520  cd
+  521  pwd
+  522  cd $HPSC
+  523  pwd
+  524  rm hpsc_2023/
+  525  rm -r hpsc_2023/
+  526  pwd
+  527  ls
+  528  pwd
+  529  cd hpsc_2023/
+  530  ls
+  531  cd
+  532  cd $HPSC
+  533  ls
+  534  rm hpsc_2023/
+  535  rm -r hpsc_2023/
+  536  ls
+  537  pwd
+  538  clear
+  539  git status
+  540  pwd
+  541  sudo apt-get install xxdiff
+  542  ls
+  543  Desktop/
+  544  cd Desktop
+  545  ls
+  546  cd Github
+  547  ls
+  548  cd hpsc_2023-1/
+  549  ls
+  550  cd codes
+  551  ls
+  552  cd python
+  553  ls
+  554  cd mysqrt
+  555  git status
+  556  ls
+  557  git diff
+  558  cd ...
+  559  cd ..
+  560  pwd
+  561  cd ..
+  562  git diff
+  563  git log
+  564  git diff 7d41fac0733a HEAD
+  565  git difftool 7d41fac0733a HEAD
+  566  history > print.txt
